@@ -1,3 +1,14 @@
+/*reglas
+selectores --> Identificar elementos en el HTML
+  etiqueta: header - section - article - nav
+  descendente: body > header > div > nav > ol > li > a
+  clase: .link
+  id: #link
+declaraciones
+propiedades
+valores*/
+
+
 header {
-    background: pink;
+  background: pink;
 }
