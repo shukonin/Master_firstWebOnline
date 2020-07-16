@@ -8,7 +8,10 @@ declaraciones
 propiedades
 valores*/
 
+body {
+  font-family: 'Montserrat', Helvetica, sans-serif;
+}
 
-header {
-  background: pink;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'El Messiri', sans-serif;
 }
