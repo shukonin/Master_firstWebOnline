@@ -10,6 +10,7 @@ valores*/
 
 body {
   font-family: 'Montserrat', Helvetica, sans-serif;
+  margin: 0px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -56,9 +57,17 @@ h1 strong {
   margin: 0px;
 }
 
+.portfolio {
+  background-color: #ededed;
+}
+
 .project {
   border: 1px solid grey;
   border-radius: 10px;
+  background-color: whitesmoke;
+  margin-bottom: 15px;
+  padding: 20px;
+  margin: 10px;
   margin-bottom: 15px;
 }
 
