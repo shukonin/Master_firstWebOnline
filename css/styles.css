@@ -22,6 +22,7 @@ h1 {
   font-size: 40px;
   letter-spacing: -.7px;
   color: whitesmoke;
+  margin: 0px;
   /*text-transform: uppercase;
   text-decoration: underline;*/
 }
@@ -33,11 +34,16 @@ h1 strong {
 .header {
   background-color: #1b2729;
   color: whitesmoke;
+  margin: 0;
 }
 
 .header a {
   color: whitesmoke;
   text-decoration: none;
+}
+
+.header ol {
+  margin: 0px;
 }
 
 .hero {
@@ -47,11 +53,13 @@ h1 strong {
   background-repeat: no-repeat;
   background-position-x: right;
   background-color: #1b2223;
+  margin: 0px;
 }
 
 .project {
   border: 1px solid grey;
   border-radius: 10px;
+  margin-bottom: 15px;
 }
 
 .project-details {
