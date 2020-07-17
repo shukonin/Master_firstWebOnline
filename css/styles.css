@@ -25,7 +25,7 @@ ol, ul {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: normal;
+  font-weight: 900;
 }
 
 h1 {
@@ -45,10 +45,11 @@ h1 strong {
 .header {
   background-color: #1b2729;
   color: whitesmoke;
-  margin: 0;
+  margin: 0px;
   display: flex;
   justify-content: space-between;
-  height: 90px;
+  align-items: center;
+  height: 70px;
 }
 
 .header ol {
@@ -83,6 +84,8 @@ h1 strong {
   background-position-x: right;
   background-color: #1b2223;
   margin: 0px;
+  display: flex;
+  align-items: center;
 }
 
 .portfolio {
@@ -105,4 +108,29 @@ h1 strong {
 
 .project-imageContainer {
   width: 500px;
+}
+
+footer {
+  height: 80px;
+  color: whitesmoke;
+  background-color: #1b2223;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+footer div {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
+
+footer div p {
+  margin: 15px;
+  align-items: center;
+}
+
+footer a {
+  color: aliceblue;
 }
