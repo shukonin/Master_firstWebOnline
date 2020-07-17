@@ -135,6 +135,47 @@ h2 {
   width: 500px;
 }
 
+.event-list-title {
+  margin-left: 20px;
+}
+
+.event-list {
+  display: flex;
+}
+
+.event {
+  border: 1px solid red;
+  margin: 10px;
+  width: 480px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #e3f1f5;
+}
+
+.event img {
+  width: 480px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.event-detail {
+  margin: 20px 40px;
+  margin-top: -50px;
+  background-color: whitesmoke;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.event-url {
+  color: #026fff;
+  border: 1px solid;
+  text-decoration: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  
+
 .project-imageContainer {
   width: 500px;
 }
