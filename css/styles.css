@@ -13,8 +13,18 @@ body {
   margin: 0px;
 }
 
+figure {
+  margin: 0px;
+}
+
+ol, ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'El Messiri', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: normal;
 }
 
@@ -36,15 +46,33 @@ h1 strong {
   background-color: #1b2729;
   color: whitesmoke;
   margin: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+}
+
+.header ol {
+  margin: 0px;
+  height: inherit;
+  display: flex;
+}
+
+.header ol li {
+  height: inherit;
 }
 
 .header a {
   color: whitesmoke;
   text-decoration: none;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  font-weight: bold;
 }
 
-.header ol {
-  margin: 0px;
+.menu {
+  height: inherit;
 }
 
 .hero {
