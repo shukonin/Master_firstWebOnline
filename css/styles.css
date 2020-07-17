@@ -11,6 +11,17 @@ valores*/
 body {
   font-family: 'Montserrat', Helvetica, sans-serif;
   margin: 0px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
 }
 
 figure {
@@ -84,14 +95,16 @@ h2 {
 
 .hero {
   height: 300px;
-  background-image: url('../images/hero.jpg');
-  background-size: 500px 300px;
-  background-repeat: no-repeat;
   background-position-x: right;
   background-color: #1b2223;
   margin: 0px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.hero-image {
+  object-fit: cover;
 }
 
 .portfolio {
@@ -137,10 +150,12 @@ h2 {
 
 .event-list-title {
   margin-left: 20px;
+  margin-top: 30px;
 }
 
 .event-list {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .event {
