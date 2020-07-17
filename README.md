@@ -1,2 +1,2 @@
 # Master_firstWebOnline
-Project developed for the Platzi Corse: 'Online Web Development'.
+Project developed for the Platzi Course: 'Online Web Development'.
