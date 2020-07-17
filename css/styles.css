@@ -144,7 +144,6 @@ h2 {
 }
 
 .event {
-  border: 1px solid red;
   margin: 10px;
   width: 480px;
   border-radius: 10px;
@@ -180,6 +179,60 @@ h2 {
   width: 500px;
 }
 
+.contact {
+  background-color: #026fff;
+  color:whitesmoke;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.form-email input {
+  display: block;
+  border-color: #1b2223;
+  padding: 10px;
+  border-radius: 5px;
+  border-style: solid;
+}
+
+.form-email button {
+  color: whitesmoke;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  background: transparent;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: whitesmoke;
+  width: 100px;
+}
+
+.social-link {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+  margin: 0px 10px;
+}
+
+.social-link.twitter {
+  background-image: url('../images/twitter.svg');
+}
+
+.social-link.facebook {
+  background-image: url('../images/facebook.svg');
+}
+
+.social-link.github {
+  background-image: url('../images/github.svg');
+}
+
+.social-link.instagram {
+  background-image: url('../images/instagram.svg');
+}
+
 footer {
   height: 80px;
   color: whitesmoke;
@@ -187,7 +240,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 5px;
 }
 
 footer div {
