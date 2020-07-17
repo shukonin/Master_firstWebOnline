@@ -42,6 +42,12 @@ h1 strong {
   color: #026fff;
 }
 
+h2 {
+  color: #026fff;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
 .header {
   background-color: #1b2729;
   color: whitesmoke;
@@ -90,6 +96,7 @@ h1 strong {
 
 .portfolio {
   background-color: #ededed;
+  padding: 20px;
 }
 
 .project {
@@ -98,8 +105,30 @@ h1 strong {
   background-color: whitesmoke;
   margin-bottom: 15px;
   padding: 20px;
-  margin: 10px;
   margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-title {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.project-course {
+  font-weight: bold;
+}
+
+.project-course, .project-date, .project-url {
+  margin: 10px 0px;
+  color: darkslategray;
+  font-size: 18px;
+}
+
+.project-description {
+  font-size: 20px;
 }
 
 .project-details {
