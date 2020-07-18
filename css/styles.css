@@ -261,7 +261,7 @@ h2 {
 }
 
 footer {
-  height: 80px;
+  height: auto;
   color: whitesmoke;
   background-color: #1b2223;
   display: flex;
@@ -280,6 +280,7 @@ footer div {
 footer div p {
   margin: 15px;
   align-items: center;
+  font-size: 0.9em;
 }
 
 footer a {
@@ -365,6 +366,32 @@ footer a {
     margin: -2em .5em .5em;
     padding: 1em;
   }
+
+  .contact {
+    height: auto;
+    padding: 1em 0;
+  }
+
+  .footer {
+    font-size: 1em;
+  }
+
+  .footer div {
+    display: block;
+    padding: 1em;
+  }
+
+  .footer div p {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .footer div img {
+    display: block;
+    margin: 0 auto;
+  }
+
 }
 
 @media screen and (max-width: 479px){
@@ -372,6 +399,26 @@ footer a {
     width: auto;
     font-size: 12px;
   }
+
+  .form-email input{
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .form-email button {
+    margin: 1em auto;
+  }
+
+  .social {
+    padding-top: 1em;
+  }
+
+  .social-link {
+    width: 2em;
+    height: 2em;
+    background-size: 2em;
+  }
+  
 }
 
 @media screen and (max-width: 320px){
