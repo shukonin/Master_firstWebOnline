@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
   display: inherit;
   justify-content: inherit;
@@ -67,6 +67,7 @@ h2 {
   justify-content: space-between;
   align-items: center;
   height: 70px;
+  flex-wrap: wrap;
 }
 
 .header ol {
@@ -101,6 +102,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .hero-image {
@@ -122,6 +124,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .project-title {
@@ -201,6 +204,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .form-email input {
@@ -255,12 +259,14 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 footer div {
   display: flex;
   align-items: center;
   margin: 0px;
+  flex-wrap: wrap;
 }
 
 footer div p {
