@@ -43,7 +43,9 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   line-height: 150%;
-  font-size: 40px;
+  /* font-size: 30px; */
+  font-size: 1.5em;
+  z-index: 2;
   letter-spacing: -.7px;
   color: whitesmoke;
   margin: 0px;
@@ -97,7 +99,7 @@ h2 {
 }
 
 .hero {
-  height: 300px;
+  height: auto;
   background-position-x: right;
   background-color: #1b2223;
   margin: 0px;
@@ -105,10 +107,20 @@ h2 {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: relative;
+  overflow: hidden;
+  padding: 2em;
 }
 
 .hero-image {
   object-fit: cover;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .portfolio {
@@ -288,7 +300,7 @@ footer a {
 }
 
 @media screen and (max-width: 1024px){
-  
+
 }
 
 @media screen and (max-width: 767px){
@@ -395,6 +407,14 @@ footer a {
 }
 
 @media screen and (max-width: 479px){
+  .hero h1 {
+    font-size: 1.1em;
+  }
+  
+  .event-list-title {
+    font-size: 1.2em;
+  }
+
   .project-details {
     width: auto;
     font-size: 12px;
@@ -422,5 +442,10 @@ footer a {
 }
 
 @media screen and (max-width: 320px){
-  
+  .hero {
+    padding: 2em;
+  }
+  .hero h1 {
+    font-size: 1em;
+  }
 }
