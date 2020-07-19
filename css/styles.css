@@ -345,11 +345,30 @@ footer a {
   color: aliceblue;
 }
 
+.burger-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: #1b2223 solid 1px;
+  background-color: whitesmoke;
+  display: none;
+  line-height: 40px;
+  text-align: center;
+  position: fixed;
+  z-index: 10;
+  left: 5px;
+  top: 5px;
+}
+
 @media screen and (max-width: 1024px){
 
 }
 
 @media screen and (max-width: 767px){
+  .burger-button {
+    display: block;
+  }
+  
   .header {
     display: block;
     height: auto;
