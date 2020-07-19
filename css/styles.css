@@ -391,6 +391,27 @@ footer a {
     text-align: center;
   }
 
+  .menu {
+    position: fixed;
+    background-color: #026fffEE;
+    z-index: 4;
+    top: 0;
+    left: -40vw;
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+  }
+
+  .menu.is-active {
+    left: 0;
+  }
+
+  .menu ol {
+    padding-top: 60px;
+  }
+
   .project {
     display: block;
   }
@@ -472,6 +493,10 @@ footer a {
 }
 
 @media screen and (max-width: 479px){
+  .header a {
+    font-size: 0.8em;
+  }
+  
   .hero h1 {
     font-size: 1.1em;
   }
